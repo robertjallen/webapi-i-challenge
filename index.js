@@ -11,7 +11,7 @@ const server = express();
 server.get('/', (req, res) => {
   // express will pass the request and response objects to this function
   // the .send() on the response object can be used to send a response to the client
-  res.send('Hello World');
+  res.send('Hello World!!');
 });
 
 // once the server is fully configured we can have it "listen" for connections on a particular "port"
